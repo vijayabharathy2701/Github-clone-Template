@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url("https://img.freepik.com/free-photo/wooden-board-empty-table-top-blurred-background_1253-1584.jpg?");
+    background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      
+      
+      width: 100%;
+      float: none;
+     }}
+body{
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        
+    }
+    .Menu{
+        background-color: black;
+        text-align: center;
+        
+    }
+    .Menu ul{
+        display: inline-flex;
+        list-style: none;
+        color: white;
+    }  
+    .Menu ul li{
+        width:120px;
+        margin:15px;
+        padding:15px;
+    } 
+    .Menu ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .Menu ul li :hover{
+        color: blueviolet;
+    }
+
+     .Sub-menu{
+         display: none;
+     } 
+ .Menu ul li:hover  .Sub-menu   {
+     display: block;
+     position: absolute;
+     background-color: gray;
+     border: 1px solid  white;
+     border-radius: 0.3;
+     
+ }
+ .Menu ul li:hover  .Sub-menu ul{
+     display: block;
+     margin: 10px;
+ } 
+ .Menu ul li:hover  .Sub-menu ul li{
+      
+      background: transparent;
+      text-align: center;
+      font-size: 0.7em;
+      width: inherit;
+      height: inherit;
+ }
+ .Sub-menu ul li a:hover{
+     color: black;
+ }
+ .login,section{
+     display: flex;
+     flex-flow: row-wrap;
+     justify-content: center;
+     margin:  30px 50px; 
+      
+ }  
+ .login{
+     background-color: rgba(0,0, 0 , 0.6);
+     width: 80%
+     height: 50%;
+ }      
+ #sec1{
+     color: white;
+     
+ }   
+ #form{
+     background-color: white;
+     border: 1px solid gray;
+     border-radius: 1em;
+     text-align: left;
+     margin: 10px;
+     padding: 5px;
+ }    
+ .box{
+     background-color: white;
+     border: 2px solid gray;
+     border-radius:3 ;
+      padding:10px;
+     box-shadow: 5px 10px #888888;
+ }
+.box,section{
+    display: flex;
+    flex-flow:row-wrap;
+    justify-content:center;
+    margin:30px 50px;
+}
+ 
+ .blue-box{
+     background-color: gray;
+     border:1px solid blue;
+     box-sizing: border-box;
+     text-align: left;
+     margin:15px 15px;
+     padding:32px 40px;
+     
+ }
+ .apps{
+     text-align: center;
+     margin: 20px;
+     line-height: 5em;
+ }
+ nav,section{
+     display: inline-flex;
+     flex-flow: row-wrap;
+     
+ }
+ #robo{
+     border:1px solid grey ;
+     display: block;
+     width:30%;
+     height: 50%;
+     padding: 5px;
+     margin-left: 10%;
+     margin-top: 15%;
+     box-shadow: 5px 5px skyblue;
+     border-radius: 15px;
+ }
+ #robo li{
+    list-style: none;
+    border:2px groove blue;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;;
+ }
+ #robo li :hover{
+    background-color: white;
+    border-radius: 15px;
+    color: gray;
+ }
+ 
+  .apps img{
+    filter: grayscale(100%);
+  }
+  #images,figure{
+    display: inline-flex;
+    flex-flow: row-wrap;
+  }
+  figure {
+    float: right;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin:4em;
+    box-shadow:  4px 4px gray;
+    
+  }
+  figcaption{
+      background-color:white;
+      margin-top: 5em;
+  }
+  figure:hover{
+      border:2px groove white;
+      box-shadow:   5px 5px 5px 5px blue;
+     
+  }
+  #footer1{
+      background-color: rgba(0,0, 0 , 0.8);
+      color: white;
+  }
+  #figure2,section{
+    display: inline-flex;
+    flex-flow: row-wrap;
+  }
+  #footer2,section ul  {
+      text-decoration: none;
+      list-style: none;
+      margin-top: 20px;
+      margin-left: 40px;
+      color: gray;
+  }
+  #footer2,section ul li:hover{
+      color: blue;
+  }
+  #footer3{
+      text-align: right;
+      font-size: 1.5em;
+      
+  }
